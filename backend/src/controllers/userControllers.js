@@ -8,11 +8,12 @@ export async function getRecommandedUsers(req, res) {
 
     const recommandedUsers = await User.find({
       $and: [
-        { _id: { $ne: currentUserId } }, // to exclude our id "ne : not equal"
-        { _id: { $nin: currentUser.friends } }, //exclude our friends "nin : not in"
+        { _id: { $ne: currentUserId } },
+        { _id: { $nin: currentUser.friends } },
         { isOnboarded: true },
       ],
-    });
+    }).select("-password").lean();
+    
     res.status(200).json(recommandedUsers);
   } catch (error) {
     console.error("Error in getRecommandedUsers controller", error.message);
