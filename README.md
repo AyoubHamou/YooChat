@@ -5,8 +5,8 @@ It provides a clean UI, friend requests, onboarding, and more — all built with
 
 🌐 Live App: [yoochat.up.railway.app](https://yoochat.up.railway.app/)  
 📚 Indexed on DeepWiki: [deepwiki.com/AyoubHamou/YooChat](https://deepwiki.com/AyoubHamou/YooChat)  
-📦 GitHub Repo: [github.com/AyoubHamou/YooChat](https://github.com/AyoubHamou/YooChat)
-🔴 Youtube Preview Link: [github.com/AyoubHamou/YooChat](https://youtu.be/4F9rrb1utNo)
+📦 GitHub Repo: [github.com/AyoubHamou/YooChat](https://github.com/AyoubHamou/YooChat)  
+🔴 Youtube Preview Link: [https://youtu.be/4F9rrb1utNo](https://youtu.be/4F9rrb1utNo)
 
 ---
 
