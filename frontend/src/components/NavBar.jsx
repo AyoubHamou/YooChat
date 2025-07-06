@@ -42,7 +42,16 @@ const NavBar = () => {
           <div className="flex items-center gap-2.5">
             <MessagesSquare className="size-7 text-primary" />
             <span className="text-3xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider">
-            <Link to="/">YooChat </Link>
+              <Link to="/">YooChat </Link>
+            </span>
+          </div>
+        )}
+        {!isChatPage && (
+          <div className="flex items-center gap-2.5 lg:hidden">
+            {" "}
+            <MessagesSquare className="size-7 text-primary" />
+            <span className="text-2xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider">
+              <Link to="/">YooChat</Link>
             </span>
           </div>
         )}
